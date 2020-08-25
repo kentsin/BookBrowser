@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/geek1011/BookBrowser/booklist"
-	"github.com/geek1011/BookBrowser/formats"
-	"github.com/geek1011/BookBrowser/indexer"
-	"github.com/geek1011/BookBrowser/public"
-	"github.com/geek1011/kepubify/kepub"
+	"github.com/kentsin/BookBrowser/booklist"
+	"github.com/kentsin/BookBrowser/formats"
+	"github.com/kentsin/BookBrowser/indexer"
+	"github.com/kentsin/BookBrowser/public"
+	"github.com/kentsin/kepubify/kepub"
 	"github.com/julienschmidt/httprouter"
 	"github.com/unrolled/render"
 )

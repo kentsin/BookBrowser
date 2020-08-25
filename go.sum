@@ -9,12 +9,14 @@ github.com/davecgh/go-spew v1.1.1-0.20171005155431-ecdeabc65495 h1:b2hEFhj0PgDc7
 github.com/davecgh/go-spew v1.1.1-0.20171005155431-ecdeabc65495/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385 h1:clC1lXBpe2kTj2VHdaIu9ajZQe4kcEY9j0NsnDDBZ3o=
 github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385/go.mod h1:0vRUJqYpeSZifjYj7uP3BG/gKcuzL9xWVV/Y+cK33KM=
-github.com/geek1011/kepubify v2.3.2-0.20190207015944-d08efa025c00+incompatible h1:OXoFe9/xuIuJ+fXiLW9bEK4e+Ovl5mAMGgM5XCNaYgs=
-github.com/geek1011/kepubify v2.3.2-0.20190207015944-d08efa025c00+incompatible/go.mod h1:xMWLgn5FQSh6oNcq//MwSwPf2WgyQq6T+fY9nSn9+Cs=
+github.com/kentsin/kepubify v2.3.2-0.20190207015944-d08efa025c00+incompatible h1:OXoFe9/xuIuJ+fXiLW9bEK4e+Ovl5mAMGgM5XCNaYgs=
+github.com/kentsin/kepubify v2.3.2-0.20190207015944-d08efa025c00+incompatible/go.mod h1:xMWLgn5FQSh6oNcq//MwSwPf2WgyQq6T+fY9nSn9+Cs=
 github.com/gobuffalo/packr v1.13.1 h1:1Z7KOEokVtxM7PFvh8ZYD/+h7vwN/hl1DBD4wDKWGvE=
 github.com/gobuffalo/packr v1.13.1/go.mod h1:m3J/Q/tkaODAQq3r6NyWhDhJs2cVZS/lU0+0Edmfv3c=
 github.com/julienschmidt/httprouter v1.1.1-0.20170430222011-975b5c4c7c21 h1:F/iKcka0K2LgnKy/fgSBf235AETtm1n1TvBzqu40LE0=
 github.com/julienschmidt/httprouter v1.1.1-0.20170430222011-975b5c4c7c21/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
+github.com/kentsin/BookBrowser v4.0.0+incompatible h1:M3EQTX+ngQMH3RbfBEZ7YSMJ2DJ0+7fQbBetP7Vwles=
+github.com/kentsin/BookBrowser v4.0.0+incompatible/go.mod h1:kKr5SeBwzbNndWWvm8Y75nqZ0vqrsJ2fezqIQZo63ug=
 github.com/markbates/grift v1.0.0/go.mod h1:6qyNEZSY8v6duE2tBtO/tPgBvxhT7g7DnQoIYpEyCfw=
 github.com/mattn/go-zglob v0.0.0-20170124115757-95345c4e1c0e h1:MjZj0KCx7aFNToMEqvMJB0IE+PpRi/goV1RC4NPfy4A=
 github.com/mattn/go-zglob v0.0.0-20170124115757-95345c4e1c0e/go.mod h1:9fxibJccNxU2cnpIKLRRFA7zX7qhkJIQWBb449FYHOo=

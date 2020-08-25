@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/geek1011/BookBrowser/booklist"
-	"github.com/geek1011/BookBrowser/formats"
+	"github.com/kentsin/BookBrowser/booklist"
+	"github.com/kentsin/BookBrowser/formats"
 	"github.com/moraes/isbn"
 	"github.com/pkg/errors"
 

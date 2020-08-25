@@ -5,7 +5,7 @@ window.onerror = function (msg, url, line, column, err) {
     if (msg.indexOf("Object expected") > -1 && url.indexOf("epub") > -1) return;
     document.querySelector(".app .error").classList.remove("hidden");
     document.querySelector(".app .error .error-title").innerHTML = "Error";
-    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/geek1011/ePubViewer/issues\">report an issue</a>.";
+    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/kentsin/ePubViewer/issues\">report an issue</a>.";
     document.querySelector(".app .error .error-info").innerHTML = msg;
     document.querySelector(".app .error .error-dump").innerHTML = JSON.stringify({
         error: err.toString(),
@@ -192,7 +192,7 @@ App.prototype.fatal = function (msg, err, usersFault) {
     console.error(msg, err);
     document.querySelector(".app .error").classList.remove("hidden");
     document.querySelector(".app .error .error-title").innerHTML = "Error";
-    document.querySelector(".app .error .error-description").innerHTML = usersFault ? "" : "Please try reloading the page or using a different browser, and if the error still persists, <a href=\"https://github.com/geek1011/ePubViewer/issues\">report an issue</a>.";
+    document.querySelector(".app .error .error-description").innerHTML = usersFault ? "" : "Please try reloading the page or using a different browser, and if the error still persists, <a href=\"https://github.com/kentsin/ePubViewer/issues\">report an issue</a>.";
     document.querySelector(".app .error .error-info").innerHTML = msg + ": " + err.toString();
     document.querySelector(".app .error .error-dump").innerHTML = JSON.stringify({
         error: err.toString(),
@@ -527,7 +527,7 @@ App.prototype.doDictionary = function (word) {
     meaningsEl.classList.add("meanings");
     meaningsEl.innerHTML = "Loading";
 
-    fetch(`https://dict.geek1011.net/word/${encodeURIComponent(word)}`).then(resp => {
+    fetch(`https://dict.kentsin.net/word/${encodeURIComponent(word)}`).then(resp => {
         if (resp.status >= 500) throw new Error(`Dictionary not available`);
         return resp.json();
     }).then(obj => {
@@ -674,7 +674,7 @@ try {
 } catch (err) {
     document.querySelector(".app .error").classList.remove("hidden");
     document.querySelector(".app .error .error-title").innerHTML = "Error";
-    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/geek1011/ePubViewer/issues\">report an issue</a>.";
+    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/kentsin/ePubViewer/issues\">report an issue</a>.";
     document.querySelector(".app .error .error-dump").innerHTML = JSON.stringify({
         error: err.toString(),
         stack: err.stack
